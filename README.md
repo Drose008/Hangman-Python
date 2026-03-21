@@ -35,7 +35,7 @@ hangman-python/
 
 
 ## ▶️ How to Run
-git clone https://github.com/your-username/hangman-python.git
+git clone https://github.com/Drose008/hangman-python.git
 Navigate to the folder: cd hangman-python
 Run the game: python hangman.py
 
