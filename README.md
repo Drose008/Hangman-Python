@@ -9,8 +9,8 @@ Features
   🔁 Replay option after game ends
   
 🛠️ Tech Stack
-  Python
-  Pandas
+Python
+Pandas
 📊 Dataset
 Kaggle dataset
 
@@ -26,7 +26,7 @@ hangman-python/
 │── words.csv
 
 ▶️ How to Run
-Clone the repository:
+Clone the repository: 
 git clone https://github.com/your-username/hangman-python.git
 Navigate to the folder:
 cd hangman-python
@@ -34,11 +34,11 @@ Run the game:
 python hangman.py
 
 💡 How It Works
-  The game selects a random word from a dataset
-  Words are filtered based on difficulty levels
-  The player guesses letters with limited attempts
-  A one-time hint reveals a hidden letter
-  ASCII visuals display the hangman progress
+   The game selects a random word from a dataset
+   Words are filtered based on difficulty levels
+   The player guesses letters with limited attempts
+   A one-time hint reveals a hidden letter 
+   ASCII visuals display the hangman progress
   
 ✨ Future Improvements
 GUI version using Tkinter
