@@ -103,7 +103,7 @@ def choose_words_by_level(words, level):
 def hangman():
 
     # load dataset (keep words.csv in same folder)
-    data = pd.read_csv("vocab/words.csv")
+    data = pd.read_csv("words.csv")
 
     # convert words column to list and remove empty values
     words = data["word"].dropna().tolist()
