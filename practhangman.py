@@ -102,11 +102,17 @@ def choose_words_by_level(words, level):
 # main game function
 def hangman():
 
-    # load dataset (keep words.csv in same folder)
-    data = pd.read_csv("words.csv")
+    data = pd.read_csv("vocab/words.csv", header=None)
 
-    # convert words column to list and remove empty values
-    words = data["word"].dropna().tolist()
+# convert entire row into a list
+    words = []
+
+    for col in data.columns:
+        for cell in data[col].dropna().tolist():
+            for word in str(cell).split(","):
+                word = word.replace('"', '').strip()
+                if word != "":
+                    words.append(word)
 
     print("\n🎮 Welcome to Hangman!")
     print("Try to guess the word before you run out of tries.\n")
