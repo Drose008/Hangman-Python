@@ -18,10 +18,9 @@ Python based Hangman game with difficulty levels, dataset integration, hint, and
 
 ## 📊 Dataset
 
-Word dataset derived from the CEFR-levelled English texts dataset on Kaggle, processed using Pandas for dynamic word selection and difficulty-based filtering.
+Word dataset derived from the English words dataset on Kaggle, processed using Pandas for word selection and difficulty-based filtering.
 
-**Source:** https://www.kaggle.com/datasets/amontgomerie/cefr-levelled-english-texts
-
+**Source:** (https://www.kaggle.com/datasets/jiprud/words-en)
 
 ## 📁 Project Structure
 
